@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,500;1,800&display=swap');
+
+body {
+    background-image: url("/Images/avengersPoster.jpg");  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 1.5rem;
+    min-width: 80%;
+
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+.background-container {
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+    background-color: rgb(29,26,26, 0.9);
+    min-width: 80%;
+}
+.marvel-logo {
+    width: 16rem;
+    margin-bottom: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    height: 100%;
+    border-radius: 0.3;
+    width: 95%;
+   
+   
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    /* width: 20rem; */
+    width: 60%;
+    /* min-width: 40%; */
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: rgb(28,26,26);
+    background: #e23636;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow:  0 0.4rem 1.4rem 0 rgba(226,54,54, 0.6);
+    color: white;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.fa-crown {
+    margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .background-container {
+        height: 100%;
+        margin: 0;
+    }
+}
+
+
+/* End Page CSS */
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    width: 90%;
+    padding: 1rem;
+    font-size: 1.4rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgb(81,140,202, 0.5)
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+#username {
+    margin-bottom: 1.5rem;
+    margin: 3rem;
+    width: 90%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.fa-home {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#end-title {
+    margin-bottom: 0;
+    font-size: 4rem;
+}
+
+#final-score {
+    color: #518cca;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+}
+
+
+
+
+
