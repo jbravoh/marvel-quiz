@@ -56,7 +56,7 @@ let questions = [
         question: "Besides Thor, which Avenger can lift Thor's hammer?",
         choice1: 'Captain America',
         choice2: 'Hulk',
-        choice3: 'Tont Stark',
+        choice3: 'Tony Stark',
         choice4: 'Black Widow',
         answer: 1,
     },
